@@ -1,6 +1,6 @@
 package Array;
 
-public class SquareSort {
+public class SquareSort_977 {
     public int[] sortedSquares(int[] nums) {
         // 排好序的数组（包括负数）中，平方后值最大的一定在最左/最右
         // 双指针法，两个指针从数组两端出发向中间靠拢

@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Arrays;
 
-public class SpiralMatrix {
+public class SpiralMatrix_59 {
     public static int[][] generateMatrix(int n) {
         int[][] result = new int[n][n];
         int start = 0; // 每一圈左上角的位置为 (start, start)
