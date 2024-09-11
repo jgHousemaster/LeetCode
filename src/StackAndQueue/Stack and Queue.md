@@ -22,3 +22,11 @@
 - `int i = deque.removeFirst();` 弹出队首元素（相当于`deque.pop()`）
 - `int i = deque.removeLast();` 弹出队尾元素
 - `int i = deque.peekFirst();` 查看队首元素（相应的，也可以用 peekLast）
+
+## PriorityQueue
+
+- 创建：`PriorityQueue<Integer> pq = new PriorityQueue<>();`, 默认是最小堆, 带比较器的构造函数可以实现最大堆：`PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());`
+- 插入：`pq.offer(10);` 或者 `pq.add(10);`
+- 弹出：`int i = pq.poll();`
+- 查看堆顶：`int i = pq.peek();`
+- 其他方法：`pq.size()`, `pq.isEmpty()`, `pq.contains(10)`， `pq.remove(10)`， `pq.clear()`
