@@ -5,3 +5,5 @@
 - 将多个元素放进 List：Arrays.asList(a, b, c)
 
 - Java 自带排序：Arrays.sort(arrayName) *这是数组内的排序
+
+- 取最大值：`Math.max(a, b);`
